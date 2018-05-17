@@ -20,6 +20,22 @@ public class Futbolista extends SeleccionFutbol{
         
     }
 
+    public int getDorsal() {
+        return dorsal;
+    }
+
+    public void setDorsal(int dorsal) {
+        this.dorsal = dorsal;
+    }
+
+    public String getDemarcacion() {
+        return demarcacion;
+    }
+
+    public void setDemarcacion(String demarcacion) {
+        this.demarcacion = demarcacion;
+    }
+
     @Override
     public void concentrarse() {
         System.out.println("Concéntrase o futbolista");
