@@ -9,12 +9,14 @@ public class Futbolista extends SeleccionFutbol{
     public Futbolista() {
     }
 
-
-    public Futbolista(int dorsal, String demarcacion, int id, int edade, String nome, String apelidos) {
-        super(id, edade, nome, apelidos);
+    public Futbolista(String nome, String apelidos, int id, int edade,int dorsal, String demarcacion) {
+        super(nome, apelidos, id, edade);
         this.dorsal = dorsal;
         this.demarcacion = demarcacion;
     }
+
+
+ 
     
     public void entrevista(){
         

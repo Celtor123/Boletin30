@@ -8,7 +8,7 @@ private String nome,apelidos;
     public SeleccionFutbol() {
     }
 
-    public SeleccionFutbol(int id, int edade, String nome, String apelidos) {
+    public SeleccionFutbol(String nome, String apelidos,int id, int edade ) {
         this.id = id;
         this.edade = edade;
         this.nome = nome;

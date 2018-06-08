@@ -6,9 +6,11 @@ public class Seleccionador extends SeleccionFutbol {
     public Seleccionador() {
     }
 
-    public Seleccionador(int id, int edade, String nome, String apelidos) {
-        super(id, edade, nome, apelidos);
+    public Seleccionador(String nome, String apelidos, int id, int edade) {
+        super(nome, apelidos, id, edade);
     }
+
+  
 
 
     
