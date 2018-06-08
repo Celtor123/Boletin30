@@ -52,4 +52,8 @@ public class Masajista extends SeleccionFutbol{
     public void xogarPartido() {
        System.out.println("Asiste ao partido o masaxista");
     }
+    @Override
+    public String toString() {
+        return "Entrenador= " + " nome: " + nome+" apelidos: "+apelidos+" id: "+id+" edade: "+edade+" titulacion: "+titulacion+" anosExaperiencia: "+anosExperiencia;
+    }
 }

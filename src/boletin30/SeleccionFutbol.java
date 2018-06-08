@@ -2,9 +2,10 @@
 package boletin30;
 
 public abstract class SeleccionFutbol implements IntegranteSeleccionFutbol{
-private int id,edade;
-private String nome,apelidos;
 
+String nome;
+   String apelidos;
+int id,edade;
     public SeleccionFutbol() {
     }
 
@@ -64,6 +65,10 @@ private String nome,apelidos;
         System.out.println("O equipo xoga");
      }  
 
-   
+   @Override
+    public String toString() {
+        return "SeleccionFutbol= " + " nome: " + nome+" apelidos: "+apelidos+" id: "+id+" edade: "+edade;
+    }
+
     
 }

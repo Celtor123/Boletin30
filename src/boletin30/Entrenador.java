@@ -3,13 +3,16 @@ package boletin30;
 
 public class Entrenador extends SeleccionFutbol{
 int idFederacion;
-    public Entrenador() {
-    }
 
     public Entrenador(String nome, String apelidos, int id, int edade,int idFederacion) {
         super(nome, apelidos, id, edade);
         this.idFederacion = idFederacion;
     }
+
+   
+   
+
+   
     
     public void planificarEntrenamiento(){        
     } 
@@ -44,7 +47,11 @@ int idFederacion;
 
     @Override
     public String toString() {
-        return "Entrenador{" + "idFederacion=" + idFederacion + '}';
+        return "Entrenador= " + " nome: " + nome+" apelidos: "+apelidos+" id: "+id+" edade: "+edade+" idFederacion: "+idFederacion;
     }
+
+   
+
+ 
 
 }

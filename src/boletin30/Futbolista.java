@@ -57,4 +57,9 @@ public class Futbolista extends SeleccionFutbol{
     public void xogarPartido() {
        System.out.println("O futbolista xoga");
     }
+    @Override
+    public String toString() {
+        return "Futbolista= " + " nome: " + nome+" apelidos: "+apelidos+" id: "+id+" edade: "+edade+" dorsal: "+dorsal+" demarcacion: "+demarcacion;
+    }
+
 }
